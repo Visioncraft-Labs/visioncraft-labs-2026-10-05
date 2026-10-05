@@ -1,0 +1,126 @@
+{
+  "images/karbonkreds-website.jpg": {
+    "alt": "KarbonKreds live website: Canadian carbon-market platform"
+  },
+  "images/address12-dashboard.jpg": {
+    "alt": "Address12 hospitality software dashboard with demonstration data"
+  },
+  "images/skincare-jar-orange-glow.jpg": {
+    "alt": "Orange-glass skincare campaign concept with illustrative packaging"
+  },
+  "images/vitamin-box-green-dramatic.jpg": {
+    "alt": "Vitamin supplement box packaging floating in dramatic green light"
+  },
+  "images/lipstick-pink-vibes.jpg": {
+    "alt": "Lipstick product visual with a painted monochrome lips concept"
+  },
+  "images/coffee-iv-bag.jpg": {
+    "alt": "Conceptual IV bag filled with coffee, minimalist packaging label"
+  },
+  "images/coffee-art-aesthetic.jpg": {
+    "alt": "Coffee still-life concept with green cups and directional shadows"
+  },
+  "images/cake_slice_poster.jpg": {
+    "alt": "Slice of matcha and chocolate cake with white flowers, creative food composition"
+  },
+  "images/candle-oaalses-stone.jpg": {
+    "alt": "Lit oaalses candle staged on a natural stone against a warm sandstone backdrop"
+  },
+  "images/coffee-process.mp4": {
+    "alt": "Coffee beans, ground coffee and a prepared cup in a bean-to-cup motion study.",
+    "description": "A short silent studio motion study follows the coffee presentation from beans through grounds to a prepared cup."
+  },
+  "images/cake-slice.mp4": {
+    "alt": "Animated cake-slice composition in a studio food presentation.",
+    "description": "A short silent studio animation presents a cake slice as a food campaign composition."
+  },
+  "images/bw-poster-art.mp4": {
+    "alt": "Black-and-white poster artwork presented in a short motion study.",
+    "description": "A short silent studio animation presents monochrome poster artwork as a creative motion composition."
+  },
+  "images/karbon-map.webp": {
+    "alt": "Representative regional activity map from the KarbonKreds website."
+  },
+  "assets/interior.png": {
+    "alt": "Blender-rendered living room with white seating, a sage armchair, wood furniture and indoor plants."
+  },
+  "assets/interior.mp4": {
+    "alt": "Original Blender living-room animation by VisionCraft Labs.",
+    "description": "A silent camera movement through a modeled living room with white sofas, a sage armchair, a wood coffee table, warm lighting and plants. Inspired by the supplied interior sketch."
+  },
+  "assets/interior-inspiration.jpg": {
+    "alt": "Interior inspiration sketch showing sofas, a rounded armchair, a coffee table, wall panels and plants."
+  },
+  "images/visioncraft-official-logo.webp": {
+    "alt": "VisionCraft Labs",
+    "decorative": true
+  },
+  "icons/instagram.svg": {
+    "alt": "Instagram icon",
+    "decorative": true
+  },
+  "icons/facebook.svg": {
+    "alt": "Facebook icon",
+    "decorative": true
+  },
+  "icons/x.svg": {
+    "alt": "X icon",
+    "decorative": true
+  },
+  "icons/tiktok.svg": {
+    "alt": "Tiktok icon",
+    "decorative": true
+  },
+  "icons/behance.svg": {
+    "alt": "Behance icon",
+    "decorative": true
+  },
+  "icons/whatsapp.svg": {
+    "alt": "Whatsapp icon",
+    "decorative": true
+  },
+  "assets/software/blender.svg": {
+    "alt": "Blender software icon",
+    "decorative": true
+  },
+  "assets/software/photoshop.svg": {
+    "alt": "Photoshop software icon",
+    "decorative": true
+  },
+  "assets/software/illustrator.svg": {
+    "alt": "Illustrator software icon",
+    "decorative": true
+  },
+  "assets/software/premiere.svg": {
+    "alt": "Premiere Pro software icon",
+    "decorative": true
+  },
+  "assets/software/aftereffects.svg": {
+    "alt": "After Effects software icon",
+    "decorative": true
+  },
+  "assets/software/resolve.png": {
+    "alt": "DaVinci Resolve software icon",
+    "decorative": true
+  },
+  "assets/software/finalcut.png": {
+    "alt": "Final Cut Pro software icon",
+    "decorative": true
+  },
+  "assets/software/motion.png": {
+    "alt": "Motion software icon",
+    "decorative": true
+  },
+  "assets/software/logic.png": {
+    "alt": "Logic Pro software icon",
+    "decorative": true
+  },
+  "assets/software/compressor.png": {
+    "alt": "Compressor software icon",
+    "decorative": true
+  },
+  "assets/software/lightroom.png": {
+    "alt": "Adobe Lightroom: Photo Editor software icon",
+    "decorative": true
+  }
+}

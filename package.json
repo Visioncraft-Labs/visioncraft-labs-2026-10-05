@@ -1,0 +1,11 @@
+{
+  "name": "visioncraft-labs-2026-10-05",
+  "private": true,
+  "scripts": {
+    "build": "python3 scripts/build-media.py",
+    "check:media": "python3 scripts/build-media.py"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

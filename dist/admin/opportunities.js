@@ -1,0 +1,4 @@
+const input=document.querySelector('#filter'),cards=[...document.querySelectorAll('#projects article')],count=document.querySelector('#count');
+const more=document.createElement('button');more.type='button';more.className='load-more';more.textContent='Load more projects';document.querySelector('#projects').after(more);
+let limit=20;function render(){const query=input.value.trim().toLowerCase(),matching=cards.filter(card=>card.textContent.toLowerCase().includes(query));const visible=new Set(matching.slice(0,limit));cards.forEach(card=>card.hidden=!visible.has(card));count.textContent=`Showing ${Math.min(limit,matching.length)} of ${matching.length} matching project briefs`;more.hidden=matching.length<=limit;}
+input.addEventListener('input',()=>{limit=20;render()});more.addEventListener('click',()=>{limit+=20;render()});render();

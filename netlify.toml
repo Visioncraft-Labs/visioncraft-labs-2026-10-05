@@ -1,0 +1,10 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "22"
+  PYTHON_VERSION = "3.13"
+
+[context.production.environment]
+  SITE_URL = "https://visioncraft-labs.com"

@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Blender",
+    "key": "blender",
+    "icon": "blender.svg",
+    "source": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/blender/blender-original.svg"
+  },
+  {
+    "name": "Photoshop",
+    "key": "photoshop",
+    "icon": "photoshop.svg",
+    "source": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/photoshop/photoshop-original.svg"
+  },
+  {
+    "name": "Illustrator",
+    "key": "illustrator",
+    "icon": "illustrator.svg",
+    "source": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/illustrator/illustrator-plain.svg"
+  },
+  {
+    "name": "Premiere Pro",
+    "key": "premiere",
+    "icon": "premiere.svg",
+    "source": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/premierepro/premierepro-original.svg"
+  },
+  {
+    "name": "After Effects",
+    "key": "aftereffects",
+    "icon": "aftereffects.svg",
+    "source": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/aftereffects/aftereffects-original.svg"
+  },
+  {
+    "name": "DaVinci Resolve",
+    "key": "resolve",
+    "icon": "resolve.png",
+    "source": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/23/02/d7/2302d7f2-a1da-2c53-11cb-bd26905c615b/Resolve.png/512x512bb.png",
+    "developer": "Blackmagic Design Inc"
+  },
+  {
+    "name": "Final Cut Pro",
+    "key": "finalcut",
+    "icon": "finalcut.png",
+    "source": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ce/35/ba/ce35ba64-0d95-921f-3d11-ff503cd73f1d/AppIcon-0-85-220-0-6-0-0-2x-sRGB-0-0.png/512x512bb.png",
+    "developer": "Apple"
+  },
+  {
+    "name": "Motion",
+    "key": "motion",
+    "icon": "motion.png",
+    "source": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6f/b2/f4/6fb2f489-a06f-aec7-99fd-154a92c68f37/AppIcon-0-85-220-0-6-0-0-2x-P3-0-0.png/512x512bb.png",
+    "developer": "Apple"
+  },
+  {
+    "name": "Logic Pro",
+    "key": "logic",
+    "icon": "logic.png",
+    "source": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ab/ad/6f/abad6fff-cdec-45d3-5eae-4c443b1da652/AppIcon-0-85-220-0-6-0-0-2x-0-0-0-0-0.png/512x512bb.png",
+    "developer": "Apple"
+  },
+  {
+    "name": "Compressor",
+    "key": "compressor",
+    "icon": "compressor.png",
+    "source": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fa/10/68/fa106822-d60c-9841-bb2d-0ced2a1612f7/AppIcon-0-85-220-0-6-0-0-2x-sRGB-0-0.png/512x512bb.png",
+    "developer": "Apple"
+  },
+  {
+    "name": "Adobe Lightroom: Photo Editor",
+    "key": "lightroom",
+    "icon": "lightroom.png",
+    "source": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/43/50/31/4350317a-589e-4f8a-4ea2-1d8b95047425/lr_appicon.png/512x512bb.png",
+    "developer": "Adobe Inc."
+  }
+]
