@@ -1,4 +1,5 @@
-// Local release candidate. Not installed in the public website.
+// WEBSITE-INQUIRY-2026-10-14-2 candidate: studio notification plus branded receipt.
+import {acknowledgement} from './email/acknowledgement.mjs';
 const origins=new Set(['https://visioncraft-labs.com','https://www.visioncraft-labs.com']);
 const mailbox='info@visioncraft-labs.com';
 const reply=(status,code)=>Response.json({code},{status,headers:{'Cache-Control':'no-store','X-Content-Type-Options':'nosniff'}});
@@ -31,6 +32,13 @@ export function createInquiryHandler({env,fetcher=fetch}={}){
   if(!response.ok)return reply(503,'INQUIRY_UNAVAILABLE');
   let ack;try{ack=await response.json();}catch{return reply(503,'INQUIRY_UNAVAILABLE');}
   if(typeof ack.id!=='string'||!ack.id||ack.id.length>128)return reply(503,'INQUIRY_UNAVAILABLE');
+  const receipt=acknowledgement(fields.name,fields.email);
+  const receiptHash=await crypto.subtle.digest('SHA-256',new TextEncoder().encode(JSON.stringify({inquiry:key,receipt})));
+  const receiptKey='website-receipt/'+[...new Uint8Array(receiptHash)].map(v=>v.toString(16).padStart(2,'0')).join('');
+  let receiptResponse;try{receiptResponse=await fetcher('https://api.resend.com/emails',{method:'POST',headers:{Authorization:'Bearer '+env.SMTP_PASS,'Content-Type':'application/json','Idempotency-Key':receiptKey},body:JSON.stringify(receipt),signal:AbortSignal.timeout(10000),redirect:'error'});}catch{return reply(503,'INQUIRY_UNAVAILABLE');}
+  if(!receiptResponse.ok)return reply(503,'INQUIRY_UNAVAILABLE');
+  let receiptAck;try{receiptAck=await receiptResponse.json();}catch{return reply(503,'INQUIRY_UNAVAILABLE');}
+  if(typeof receiptAck.id!=='string'||!receiptAck.id||receiptAck.id.length>128)return reply(503,'INQUIRY_UNAVAILABLE');
   return reply(202,'INQUIRY_ACCEPTED');
  };
 }
