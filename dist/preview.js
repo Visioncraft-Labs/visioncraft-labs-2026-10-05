@@ -1,5 +1,5 @@
 const form=document.getElementById('projectForm');
-if(form){
+if(form&&form.dataset.backend!=='resend'){
  const clone=form.cloneNode(true);form.replaceWith(clone);
  const requested=new URLSearchParams(location.search).get('project');if(requested==='Etsy')clone.elements.project.value='Etsy seller creative assets';if(requested==='Address12')clone.elements.project.value='Address12 demonstration';
  clone.removeAttribute('data-netlify');clone.removeAttribute('data-backend');
@@ -41,3 +41,4 @@ if(form){
 }
 
 document.querySelectorAll('.software-pause').forEach(button=>button.addEventListener('click',()=>{const section=button.closest('.software-section');const paused=section.classList.toggle('is-paused');button.setAttribute('aria-pressed',String(paused));button.textContent=paused?'Resume scrolling':'Pause scrolling'}));
+
