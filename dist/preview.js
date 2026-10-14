@@ -21,7 +21,7 @@ if(form){
   text='VISIONCRAFT LABS\nPROJECT INQUIRY\n\n'+rows.map(([label,value])=>label+': '+value).join('\n\n')+'\n\nPrepared with VisionCraft Labs\nhttps://visioncraft-labs.com';
   html='<div style="font-family:Arial,sans-serif;color:#20221e;max-width:640px;background:#f5f4ef;padding:24px"><h2 style="margin:0 0 6px;color:#34482c;font-size:24px">VisionCraft Labs</h2><p style="margin:0 0 20px;color:#43523c">Project inquiry</p><table style="width:100%;border-collapse:collapse;font-size:14px;table-layout:fixed">'+rows.map(([label,value])=>'<tr><th scope="row" style="width:34%;text-align:left;vertical-align:top;padding:12px;border:1px solid #b5bdab;background:#e8ede2;color:#20221e;font-weight:bold">'+escape(label)+'</th><td style="padding:12px;border:1px solid #b5bdab;background:#fff;color:#20221e;vertical-align:top;overflow-wrap:anywhere">'+escape(value).replace(/\n/g,'<br>')+'</td></tr>').join('')+'</table><p style="font-size:12px;margin:20px 0 0;color:#43523c">Prepared with <a href="https://visioncraft-labs.com" style="color:#34482c">VisionCraft Labs</a></p></div>';
   card.innerHTML=html;
-  email.href='mailto:visioncraftlabs@gmail.com?subject='+encodeURIComponent('Project inquiry — '+(data.get('company')||data.get('name')))+'&body='+encodeURIComponent(text);
+  email.href='mailto:info@visioncraft-labs.com?subject='+encodeURIComponent('Project inquiry — '+(data.get('company')||data.get('name')))+'&body='+encodeURIComponent(text);
   const wa='*VisionCraft Labs — Project inquiry*\n\n'+rows.map(([label,value])=>'*'+label+'*\n'+value).join('\n\n');
   whatsapp.href='https://wa.me/16478324443?text='+encodeURIComponent(wa);
  }
