@@ -122,5 +122,8 @@
   "assets/software/lightroom.png": {
     "alt": "Adobe Lightroom: Photo Editor software icon",
     "decorative": true
+  },
+  "images/tervotek-website.png": {
+    "alt": "Tervotek Global Solutions website showing the One partner. Every solution. headline and interactive globe"
   }
 }
