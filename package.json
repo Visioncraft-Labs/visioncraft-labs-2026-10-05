@@ -2,7 +2,7 @@
   "name": "visioncraft-labs-2026-10-05",
   "private": true,
   "scripts": {
-    "build": "python3 scripts/build-media.py",
+    "build": "node scripts/normalize-seo.mjs && python3 scripts/build-media.py",
     "check:media": "python3 scripts/build-media.py"
   },
   "engines": {
